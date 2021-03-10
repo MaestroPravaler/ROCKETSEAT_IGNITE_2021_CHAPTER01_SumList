@@ -1,21 +1,18 @@
-# SumList
+# Chapter 01 - Fundamentos do Elixir (SumList)
 
-**TODO: Add description**
+1. Somar os elementos de uma lista de forma manual
+2. Aprender os primeiros conceitos de utilização do Emum
 
-## Installation
+## Passos Adicionais
+1. Declaração de todas as funcionalidades do Enum aprendidas no capítulo de forma individual.
+2. Utilização da biblioteca [excoveralls](https://github.com/parroty/excoveralls) para monitoração dos testes da aplicação.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `sum_list` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:sum_list, "~> 0.1.0"}
-  ]
-end
 ```
+mix coveralls.html
+```
+3. Testes de Unidade para toda a aplicação (Incluindo as funções Enum)
+![](assets/images/test.png)
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/sum_list](https://hexdocs.pm/sum_list).
-
+## Conteúdo Desenvolvido nos Cursos
+![](assets/images/rocketseat.png)
+![](assets/images/ignite.png)
